@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header>
+        <h1>Mini projet avancée : calculatrice locale</h1>
+    </header>
+    <main>
+        <section class="carte">
+        
+        <form>
+            <fieldset>
+            <legend><h2>calculatrice</h2></legend>
+            <div class="nombre">
+                <label>Nombre A :</label><br>
+                <input type="number" id="A">
+            </div>
+            <div class="nombre">
+                <label>Nombre B :</label><br>
+                <input type="number" id="B">
+            </div>
+            <div class="nombre">
+                <label>Opération :</label><br>
+                <select id="operation">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="x">x</option>
+                <option value="/">/</option>
+                </select>
+            </div>
+            <button type="submit" class="button">Calculer</button>
+            <p id="erreur" class="erreur"></p>
+            </fieldset>
+        </form></section>
+        <div class="historique">
+            <h2>historique des opérations</h2>
+            <ul id="historique"></ul>
+        </div>
+        <a href="info.php" class="php">Voir la page PHP</a>
+    </main>
+    <footer>
+        <p>TP 6 </p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

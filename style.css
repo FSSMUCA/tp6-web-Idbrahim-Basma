@@ -1,0 +1,281 @@
+
+/*body {
+    background: #f2f2f7;
+    padding: 20px;
+    color: #333;
+}
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.carte {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.nombre {
+    margin-bottom: 15px;
+    padding-right: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+.button {
+    width: 100%;
+    padding: 12px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: #217dbb;
+}
+
+.erreur {
+    color: red;
+    margin-top: 10px;
+    min-height: 20px;
+}
+
+.historique {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.historique ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.historique li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.php {
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.php:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #555;
+}
+
+@media (min-width: 800px) {
+    main {
+        display: flex;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .carte, .historique {
+        width: 50%;
+    }
+}*/
+/*
+body{
+    text-align: center;
+    padding: 10px;
+    background-color: #dad2da;
+}
+fieldset{
+    border-width: 20px;
+    border-color: black;
+    border-radius: 30px;
+    margin: 0 300px;
+}
+.nombre{
+    padding-bottom: 20px;
+}
+.button{
+    color: white;
+    background-color:black;
+    padding:5px 60px;
+}
+label{
+    font-weight: bold;
+}
+input{
+    padding:5px;
+}
+#operation{
+    padding:5px 70px;
+}
+.historique {
+    background: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin: 20px 300px;
+}
+@media (max-width: 576px) {
+    fieldset {
+        margin: 0 20px;
+        border-width: 10px;
+    }
+
+    .historique {
+        margin: 10px 20px;
+    }
+
+    body {
+        padding: 5px;
+    }
+
+    input, #operation {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .button {
+        padding: 10px 20px;
+        width: 100%;
+    }
+}*/
+/* Style général */
+body {
+    text-align: center;
+    padding: 10px;
+    background-color: #dad2da;
+    font-family: Arial, sans-serif;
+}
+
+
+fieldset {
+    border-width: 10px;
+    border-color: black;
+    border-radius: 30px;
+    margin: 0 auto;             
+    padding: 20px;
+    max-width: 500px;           
+    background: white;
+}
+
+.nombre {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    padding: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+#operation {
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #444;
+}
+.erreur{
+    color: red;
+}
+
+.historique {
+    background: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+#historique li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.php {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #444;
+    color: white;
+    border-radius: 5px;
+}
+
+.php:hover {
+    background-color: #222;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    fieldset, .historique, .php {
+        max-width: 90%;
+    }
+
+    fieldset {
+        border-width: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    body {
+        padding: 5px;
+    }
+
+    fieldset {
+        border-width: 10px;
+        padding: 15px;
+    }
+
+    .button {
+        padding: 12px;
+    }
+}
